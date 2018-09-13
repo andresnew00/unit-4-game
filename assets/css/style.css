@@ -1,0 +1,70 @@
+body {
+    font-family: 'Lora', serif;
+    background-image: url("back.jpg");
+}
+.title {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 20px;
+    color: white;
+
+}
+.main {
+    position: absolute;
+    float: left;
+    background-color: gray;
+    margin-right: 1000px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    height: 600px;
+    text-align: center;
+    line-height: 2;
+
+}
+.winslosses {
+    background-color: gray;
+    margin-left: 50px;
+    margin-right: -960px;
+    margin-top: 520px;
+    font-size: 40px;
+    float: right;
+    width: 910px;
+    height: 100px;
+
+}
+h1 {
+    font-weight: bold;
+    font-size: 30px;
+}
+.card {
+    margin-left:-10px;
+    margin-right:50px;
+    margin-top: 20px;
+    float: right;
+    display: inline;
+
+}
+.goal {
+    background-color: gray;
+    margin-left: 50px;
+    margin-right: -430px;
+    margin-top: 300px;
+    font-size: 40px;
+    float: right;
+    width: 430px;
+    height: 200px;
+    text-align: center;
+    
+}
+.score {
+    background-color: gray;
+    margin-left: 50px;
+    margin-right: -960px;
+    margin-top: 300px;
+    font-size: 40px;
+    float: right;
+    width: 430px;
+    height: 200px;
+    text-align: center;
+}

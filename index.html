@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="assets/javascript/game.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <title>Poker Collector Game</title>
+</head>
+
+<body>
+    <header class="title">
+        <strong>Poker Collector</strong>
+    </header>
+    <div class="main">
+        <h1>Instructions</h1>
+        <p>
+            You are given a random number at the start of the game.
+        </p>
+        <p>
+            There are four cards. By clicking on a card you will add a specific amount of points to your total score.
+        </p>
+        <p>
+            You win the game by matching your total score to random number, you lose the game if your total sore goes above the random
+            number.
+        </p>
+        <p>
+            The value of each card is hidden from you until you click on it.
+        </p>
+        <p>
+            Each time when the game starts, the game will change the calues of each card.
+        </p>
+    </div>
+    <div class="card" id="one">
+        <img src="c1.png" alt="card">
+    </div>
+    <div class="card" id="two">
+        <img src="c2.png" alt="card">
+    </div>
+    <div class="card" id="three">
+        <img src="c3.png" alt="card">
+    </div>
+    <div class="card" id="four">
+        <img src="c4.png" alt="card">
+    </div>
+    <div class="goal">Goal:</div>
+    <div class="score"> Your Score:</div>
+    <div class="winslosses">Wins: 0  Losses: 0</div>
+   
+</body>
+
+</html>
