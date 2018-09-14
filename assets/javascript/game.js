@@ -19,11 +19,11 @@ $(document).ready(function () {
         $(".score").text(String(0)); //found "string" online and seem to work for them but not here (what is it?)
         points = 0;
         gameOver = false;
-    });
+    }
 
     if (gameOver = true) {
         gameStarts();
-    });
+    }
 
     function scoreCheck() {
         if (points > randomNumber) {
@@ -35,7 +35,7 @@ $(document).ready(function () {
             wins++;
             alert("GOOD JOB!");
             gameOver = true;
-        });
+        }
 
     $("#one").on("click", function () {
         points = points + cardNumber1;
@@ -46,7 +46,7 @@ $(document).ready(function () {
             points = points + cardNumber2;
             $(".score").text(points);
             scoreCheck();
-    });
+        });
     $("#three").on("click", function () {
                 points = points + cardNumber3;
                 $(".score").text(points);
@@ -56,7 +56,7 @@ $(document).ready(function () {
                     points = points + cardNumber4;
                     $(".score").text(points);
                     scoreCheck();
-    });
+                });
 
 
 });
